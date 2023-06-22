@@ -18,7 +18,7 @@ struct yyomzzi_Login: View {
     // 이용약관 동의하냐는 토글에 쓰이는 Bool 타입 변수
     @State var agreeToTerms: Bool = true
     
-    // 로그인이 되었는지 실패했는지 보여주는 텍스트에 담을 String 변수
+    // 로그인이 되었는지 실패했는지 보여주는 텍스트에 담을 String 변수ㅜ
     @State var loginResult = ""
     
     //요기까지 변수끝. @State 를 통해 변화하는 값을 받아서 다시 뷰를 그려주기!
