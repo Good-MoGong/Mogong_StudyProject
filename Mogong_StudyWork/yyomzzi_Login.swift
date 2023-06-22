@@ -81,7 +81,7 @@ struct yyomzzi_Login: View {
                     
                     
                     //하.. 얘를 구현하면 좋은데.. 텍필 안에다가 넣고싶은데.. 우케해야하지..?
-                    // ==> Stack의 테두리를 추가하면 됨!! .overlay 사용하면가능
+                    // ==> Stack의 테두리를 추가하면 됨!! .overlay 사용하면가능!
                     
                     Button {
                         showPassword.toggle()
