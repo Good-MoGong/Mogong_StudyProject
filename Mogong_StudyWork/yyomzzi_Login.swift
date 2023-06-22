@@ -21,7 +21,7 @@ struct yyomzzi_Login: View {
     // 로그인이 되었는지 실패했는지 보여주는 텍스트에 담을 String 변수
     @State var loginResult = ""
     
-    //요기까지 변수끝. @State 를 통해 변화하는 값을 받아서 다시 뷰를 그려주기
+    //요기까지 변수끝. @State 를 통해 변화하는 값을 받아서 다시 뷰를 그려주기!
     
     var body: some View {
         VStack {
@@ -81,7 +81,7 @@ struct yyomzzi_Login: View {
                     
                     
                     //하.. 얘를 구현하면 좋은데.. 텍필 안에다가 넣고싶은데.. 우케해야하지..?
-                    // ==> Stack의 테두리를 추가하면 됨!! .overlay 사용하면가능
+                    // ==> Stack의 테두리를 추가하면 됨!! .overlay 사용하면가능!
                     
                     Button {
                         showPassword.toggle()
