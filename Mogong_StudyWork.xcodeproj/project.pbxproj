@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84B6B59E2A43CA78008BAF5E /* yyomzzi_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6B59D2A43CA78008BAF5E /* yyomzzi_Login.swift */; };
+		84B6B59E2A43CA78008BAF5E /* Login_YZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6B59D2A43CA78008BAF5E /* Login_YZ.swift */; };
 		D570D6962A408D8100D167B9 /* Mogong_StudyWorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570D6952A408D8100D167B9 /* Mogong_StudyWorkApp.swift */; };
 		D570D6982A408D8100D167B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570D6972A408D8100D167B9 /* ContentView.swift */; };
 		D570D69A2A408D8200D167B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D570D6992A408D8200D167B9 /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84B6B59D2A43CA78008BAF5E /* yyomzzi_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yyomzzi_Login.swift; sourceTree = "<group>"; };
+		84B6B59D2A43CA78008BAF5E /* Login_YZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_YZ.swift; sourceTree = "<group>"; };
 		D570D6922A408D8100D167B9 /* Mogong_StudyWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mogong_StudyWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D570D6952A408D8100D167B9 /* Mogong_StudyWorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mogong_StudyWorkApp.swift; sourceTree = "<group>"; };
 		D570D6972A408D8100D167B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				D570D69C2A408D8200D167B9 /* Preview Assets.xcassets */,
-				84B6B59D2A43CA78008BAF5E /* yyomzzi_Login.swift */,
+				84B6B59D2A43CA78008BAF5E /* Login_YZ.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B6B59E2A43CA78008BAF5E /* yyomzzi_Login.swift in Sources */,
+				84B6B59E2A43CA78008BAF5E /* Login_YZ.swift in Sources */,
 				D570D6982A408D8100D167B9 /* ContentView.swift in Sources */,
 				D570D6962A408D8100D167B9 /* Mogong_StudyWorkApp.swift in Sources */,
 			);
