@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct LoginMG: View {
     @State var userID: String = ""
     @State var userPasswrod: String = ""
     @State var loginAgree: Bool = false
@@ -83,8 +83,8 @@ struct ContentView: View {
         }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LoginMG_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LoginMG()
     }
 }
