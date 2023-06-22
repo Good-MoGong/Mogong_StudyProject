@@ -62,7 +62,7 @@ struct yyomzzi_Login: View {
                 /*
                  비밀번호 처럼 암호화해서 입력하고 싶을때는 SecureField
                  만약 showPassword 토글 버튼이 true 면 그냥 텍필로 비밀번호 보여주고
-                 false 면 secureField로 암호화해서 보여달라는~~
+                 false 면 secureField로 암호화해서 보여달라는~~!
                  */
                 HStack {
                     if showPassword {
