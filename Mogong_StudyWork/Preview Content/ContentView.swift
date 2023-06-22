@@ -19,7 +19,9 @@ struct ContentView: View {
             Text("지영 브랜치 테스트")
         }
         .padding()
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
