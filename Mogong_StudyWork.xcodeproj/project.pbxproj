@@ -55,6 +55,7 @@
 			children = (
 				D570D6952A408D8100D167B9 /* Mogong_StudyWorkApp.swift */,
 				D570D6972A408D8100D167B9 /* ContentView.swift */,
+				84B6B59D2A43CA78008BAF5E /* yyomzzi_Login.swift */,
 				D570D6992A408D8200D167B9 /* Assets.xcassets */,
 				D570D69B2A408D8200D167B9 /* Preview Content */,
 			);
@@ -65,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				D570D69C2A408D8200D167B9 /* Preview Assets.xcassets */,
-				84B6B59D2A43CA78008BAF5E /* yyomzzi_Login.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
