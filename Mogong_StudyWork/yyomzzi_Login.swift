@@ -12,7 +12,7 @@ struct yyomzzi_Login: View {
     @State var id: String = ""
     @State var password: String = ""
     
-    // 암호화된 패스워드 보여주는 눈깔토글에 쓰이는 Bool 타입 변수
+    // 암호화된 패스워드 보여주는 눈깔토글에 쓰이는 Bool 타입 변수!
     @State var showPassword: Bool = false
     
     // 이용약관 동의하냐는 토글에 쓰이는 Bool 타입 변수
