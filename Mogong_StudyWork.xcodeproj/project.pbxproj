@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		571799912A470EF800E33773 /* KakaoTalkViewMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571799902A470EF800E33773 /* KakaoTalkViewMS.swift */; };
 		578BE2952A44989300FF2B73 /* LoginMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578BE2942A44989300FF2B73 /* LoginMS.swift */; };
+		849535172A49C41800C00D52 /* LoginJY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849535162A49C41800C00D52 /* LoginJY.swift */; };
 		D570D6962A408D8100D167B9 /* Mogong_StudyWorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570D6952A408D8100D167B9 /* Mogong_StudyWorkApp.swift */; };
 		D570D6982A408D8100D167B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570D6972A408D8100D167B9 /* ContentView.swift */; };
 		D570D69A2A408D8200D167B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D570D6992A408D8200D167B9 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		571799902A470EF800E33773 /* KakaoTalkViewMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoTalkViewMS.swift; sourceTree = "<group>"; };
 		578BE2942A44989300FF2B73 /* LoginMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginMS.swift; sourceTree = "<group>"; };
+		849535162A49C41800C00D52 /* LoginJY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginJY.swift; sourceTree = "<group>"; };
 		D570D6922A408D8100D167B9 /* Mogong_StudyWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mogong_StudyWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D570D6952A408D8100D167B9 /* Mogong_StudyWorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mogong_StudyWorkApp.swift; sourceTree = "<group>"; };
 		D570D6972A408D8100D167B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				D570D6952A408D8100D167B9 /* Mogong_StudyWorkApp.swift */,
 				D570D6972A408D8100D167B9 /* ContentView.swift */,
 				578BE2942A44989300FF2B73 /* LoginMS.swift */,
+				849535162A49C41800C00D52 /* LoginJY.swift */,
 				571799902A470EF800E33773 /* KakaoTalkViewMS.swift */,
 				D570D6992A408D8200D167B9 /* Assets.xcassets */,
 				D570D69B2A408D8200D167B9 /* Preview Content */,
@@ -148,6 +151,7 @@
 			files = (
 				D5B3C4222A4278C8001A6989 /* LoginSY.swift in Sources */,
 				D570D6982A408D8100D167B9 /* ContentView.swift in Sources */,
+				849535172A49C41800C00D52 /* LoginJY.swift in Sources */,
 				578BE2952A44989300FF2B73 /* LoginMS.swift in Sources */,
 				571799912A470EF800E33773 /* KakaoTalkViewMS.swift in Sources */,
 				D570D6962A408D8100D167B9 /* Mogong_StudyWorkApp.swift in Sources */,
@@ -286,6 +290,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
