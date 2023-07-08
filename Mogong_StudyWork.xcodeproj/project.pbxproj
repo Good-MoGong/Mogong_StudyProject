@@ -11,6 +11,9 @@
 		D570D6982A408D8100D167B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570D6972A408D8100D167B9 /* ContentView.swift */; };
 		D570D69A2A408D8200D167B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D570D6992A408D8200D167B9 /* Assets.xcassets */; };
 		D570D69D2A408D8200D167B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D570D69C2A408D8200D167B9 /* Preview Assets.xcassets */; };
+		D59973EE2A59A90800B3C134 /* LoginSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59973ED2A59A90800B3C134 /* LoginSecondView.swift */; };
+		D59973F12A59A92500B3C134 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59973F02A59A92500B3C134 /* LoginData.swift */; };
+		D59973F32A59A92D00B3C134 /* LoginHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59973F22A59A92D00B3C134 /* LoginHelpers.swift */; };
 		D5B3C4222A4278C8001A6989 /* LonginSY.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3C4212A4278C8001A6989 /* LonginSY.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +23,9 @@
 		D570D6972A408D8100D167B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D570D6992A408D8200D167B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D570D69C2A408D8200D167B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D59973ED2A59A90800B3C134 /* LoginSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSecondView.swift; sourceTree = "<group>"; };
+		D59973F02A59A92500B3C134 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		D59973F22A59A92D00B3C134 /* LoginHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHelpers.swift; sourceTree = "<group>"; };
 		D5B3C4212A4278C8001A6989 /* LonginSY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LonginSY.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +63,7 @@
 				D570D6972A408D8100D167B9 /* ContentView.swift */,
 				D570D6992A408D8200D167B9 /* Assets.xcassets */,
 				D570D69B2A408D8200D167B9 /* Preview Content */,
-				D5B3C4212A4278C8001A6989 /* LonginSY.swift */,
+				D59973EF2A59A91000B3C134 /* LogigSY */,
 			);
 			path = Mogong_StudyWork;
 			sourceTree = "<group>";
@@ -68,6 +74,17 @@
 				D570D69C2A408D8200D167B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D59973EF2A59A91000B3C134 /* LogigSY */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3C4212A4278C8001A6989 /* LonginSY.swift */,
+				D59973ED2A59A90800B3C134 /* LoginSecondView.swift */,
+				D59973F02A59A92500B3C134 /* LoginData.swift */,
+				D59973F22A59A92D00B3C134 /* LoginHelpers.swift */,
+			);
+			path = LogigSY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59973EE2A59A90800B3C134 /* LoginSecondView.swift in Sources */,
+				D59973F32A59A92D00B3C134 /* LoginHelpers.swift in Sources */,
+				D59973F12A59A92500B3C134 /* LoginData.swift in Sources */,
 				D5B3C4222A4278C8001A6989 /* LonginSY.swift in Sources */,
 				D570D6982A408D8100D167B9 /* ContentView.swift in Sources */,
 				D570D6962A408D8100D167B9 /* Mogong_StudyWorkApp.swift in Sources */,
